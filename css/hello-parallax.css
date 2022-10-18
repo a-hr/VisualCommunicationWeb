@@ -1,0 +1,99 @@
+.va {
+  display: flex;
+  align-items: center;
+}
+
+.hero,
+.cta {
+  background: linear-gradient(52deg, #A4A7A4 0%, #4c4e4d 71%);
+}
+
+.cta {
+  height: 500px;
+  border-top: 10px solid #77a0d4;
+}
+
+footer {
+  color: white;
+  background: rgb(14, 14, 14) !important;
+}
+
+footer strong {
+  color: #77a0d4;
+}
+
+footer a {
+  color: #77a0d4;
+}
+
+.title {
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.subtitle {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+hr.content-divider {
+  max-width: 100%;
+  height: 5px;
+}
+
+#parallax-1 {
+  background: url(../images/Chico_silla_rueda.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid coral;
+}
+
+#parallax-1 hr {
+  background: coral;
+}
+
+#parallax-2 {
+  background: url(../images/celulas.jpg); /* foto laboratorio Alvaro Herrero (celulas c2c12 modificadas) */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid yellow;
+}
+
+#parallax-2 hr {
+  background: yellow;
+}
+
+#parallax-3 {
+  background: url(../images/Soledad_ancianos.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #77a0d4;
+}
+
+#parallax-3 hr {
+  background: #77a0d4;
+}
+
+.label {
+  color: white;
+}
+
+input {
+  background: transparent !important;
+  border: 1px solid #77a0d4 !important;
+  color: white !important;
+}
+
+input::placeholder {
+  color: white !important;
+}
